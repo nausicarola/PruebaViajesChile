@@ -1,0 +1,95 @@
+/* estilos ocupados para dar forma a la pagina web 
+y a cada uno de los elementos que la componen
+*/
+body {
+  background-color: black;
+}
+
+footer {
+  background-color: aqua;
+  font-family: 'Cabin';
+  font-size: 20px;
+  color: white;
+}
+
+.navbar {
+  position: absolute;
+  /* Posicionar la barra de navegación de forma absoluta */
+  top: 0;
+  /* Fijar en la parte superior de la página */
+  left: 0;
+  /* Fijar a la izquierda de la página */
+  width: 100%;
+  /* Ocupa el ancho completo de la página */
+  z-index: 1000;
+  /* Asegurar que la barra de navegación esté sobre el carrusel */
+}
+
+.navbar-brand img {
+  height: 25px;
+}
+
+.navbar .nav-link {
+  color: white;
+  font-size: 1.2rem;
+  margin-right: 20px;
+}
+
+.carousel {
+  margin-top: -85px;
+  margin-bottom: 0;
+}
+
+.section-quien {
+  background-color: black;
+  color: white;
+}
+
+.card i {
+  background-color: aqua;
+  height: 40px;
+
+}
+
+.fa-solid {
+  color: white;
+  /* Cambia el color del ícono a blanco */
+}
+
+.card-content {
+  background-color: aqua;
+  color: white;
+}
+
+.card-content1 {
+  background-color: black;
+  color: white;
+}
+
+#lugares h2 {
+  font-family: "Cabin", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+#lugares p {
+  font-family: "Cabin", sans-serif;
+  font-size: 16px;
+  text-align: left;
+}
+
+.card-img-top {
+  width: 316px;
+  height: 180px;
+}
+
+
+.section-destacado h2 {
+  font-family: "Cabin", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+.section-destacado  {
+  background-color: black;
+  color: white;
+}
